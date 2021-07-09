@@ -155,37 +155,37 @@ void gatlingGo(uint8_t pos)
     case 1:
       moteur.setTargetAbs(GATLING_POS_1);
       controller.move(moteur);
-      delay(500);
+      //delay(500);
       moteur.setPosition(GATLING_POS_1);
       break;
     case 2:
       moteur.setTargetAbs(GATLING_POS_2);
       controller.move(moteur);
-      delay(500);
+      //delay(500);
       moteur.setPosition(GATLING_POS_2);
       break;
     case 3:
       moteur.setTargetAbs(GATLING_POS_3);
       controller.move(moteur);
-      delay(500);
+      //delay(500);
       moteur.setPosition(GATLING_POS_3);
       break;
     case 4:
       moteur.setTargetAbs(GATLING_POS_4);
       controller.move(moteur);
-      delay(500);
+      //delay(500);
       moteur.setPosition(GATLING_POS_4);
       break;
     case 5:
       moteur.setTargetAbs(GATLING_POS_5);
       controller.move(moteur);
-      delay(500);
+      //delay(500);
       moteur.setPosition(GATLING_POS_5);
       break;
     case 6:
       moteur.setTargetAbs(GATLING_POS_6);
       controller.move(moteur);
-      delay(500);
+      //delay(500);
       moteur.setPosition(GATLING_POS_6);
       break;
     }
@@ -202,14 +202,14 @@ void gatlingGo(uint8_t pos)
 
       moteur.setTargetAbs(-GATLING_POS_1);
       controller.move(moteur);
-      delay(500);
+      //delay(500);
       moteur.setPosition(GATLING_POS_1);
       break;
     case 2:
 
       moteur.setTargetAbs(-GATLING_POS_2);
       controller.move(moteur);
-      delay(500);
+      //delay(500);
       moteur.setPosition(GATLING_POS_2);
 
       break;
@@ -217,28 +217,28 @@ void gatlingGo(uint8_t pos)
 
       moteur.setTargetAbs(-GATLING_POS_3);
       controller.move(moteur);
-      delay(500);
+      //delay(500);
       moteur.setPosition(GATLING_POS_3);
 
       break;
     case 4:
       moteur.setTargetAbs(GATLING_POS_4);
       controller.move(moteur);
-      delay(500);
+      //delay(500);
       moteur.setPosition(GATLING_POS_4);
 
       break;
     case 5:
       moteur.setTargetAbs(GATLING_POS_5);
       controller.move(moteur);
-      delay(500);
+      //delay(500);
       moteur.setPosition(GATLING_POS_5);
 
       break;
     case 6:
       moteur.setTargetAbs(GATLING_POS_6);
       controller.move(moteur);
-      delay(500);
+      //delay(500);
       moteur.setPosition(GATLING_POS_6);
       break;
     }
@@ -251,15 +251,15 @@ void gatlingHeight(uint8_t height)
   {
   case 'h':
     GatlingServo.write(GATLING_HAUT);
-    delay(25);
+    //delay(25);
     break;
   case 'b':
     GatlingServo.write(GATLING_BAS);
-    delay(25);
+    //delay(25);
     break;
   case 'm':
     GatlingServo.write(GATLING_MILIEU);
-    delay(25);
+    //delay(25);
     break;
   }
 }

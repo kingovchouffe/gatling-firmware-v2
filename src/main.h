@@ -38,8 +38,8 @@
 #define PIN_LED    13
 
 
-#define V_MOT 5000
-#define ACC_MOT 2000
+#define V_MOT 8000
+#define ACC_MOT 5000
 
 uint8_t posprec=1;
 
